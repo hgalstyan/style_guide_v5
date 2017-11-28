@@ -1,0 +1,53 @@
+.grid {
+	&__col {
+		@include grid-colors($grid-colors){
+			color: darken($grey, 15%);
+			border-radius: em(5px);
+			//padding: em(10px) 0;
+			margin: em(10px) auto;
+		}
+	}
+	@include mq(large){
+		&__row {
+			max-width: 1400px;
+			margin: 0 auto;
+			@include flexbox($content: space-between,$direction: row);
+		}
+
+		&__col--6 {
+			@include flex-lg(40%);
+		}
+		&__col--8,
+		&__col--7 {
+			@include flex-lg(60%);
+		}
+
+		&__col--4,
+		&__col--5 {
+			@include flex-lg(30%);
+		}
+
+		&__col--3 {
+			@include flex-lg(20%);
+		}
+
+		&__col--9 {
+			flex-basis: 50%; 
+			align-self: center;
+		}
+		&__col--12 {
+			@include flexbox($content: space-between,$direction: row){
+				width: 90%;
+				margin: 0 auto;
+			};
+		}
+
+	}
+
+	&__col--9 {
+		@include mq(medium){
+			@include flexbox($content: space-between,$direction: row);
+		}
+	}
+		
+}

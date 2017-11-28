@@ -1,0 +1,21 @@
+.btn{
+	@include bg-colors($ui-colors) {
+		border: none;
+		font-size:em(30px);
+		border-radius: em(5px);
+		margin-top: em(10px) ;
+		margin-left: 5%;
+		margin-right: 5%;
+		cursor:pointer;
+		width: 90%;
+		color: white;
+		@extend %height;
+		
+		@include mq(large) {
+		flex-basis: 15%;
+		margin-left: 0;
+		margin-right: 0;
+		}
+	}
+
+}

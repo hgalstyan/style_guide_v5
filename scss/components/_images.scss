@@ -1,0 +1,15 @@
+.img {
+
+  @include img(avatar) {
+    border-radius: 50%;
+  }
+  @include img(logo); 
+  	
+  @include img(frame) {
+  	border: 1px solid $grey-light;
+  	width:  95%;
+  	height: 95%;
+  	padding: 2.5%;
+  }
+}
+

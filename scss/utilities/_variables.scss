@@ -1,0 +1,100 @@
+// Font Stacks
+
+$font-url--google        : 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
+$font-family--primary    : 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--secondary  : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// Font Weights
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+
+// Descriptive Base Colors
+
+$white     : #fff;
+$black     : #0b0b0b;
+$grey      : #797e83;
+$grey-light: lighten($grey, 15%);
+
+
+
+$fountain-blue  : #52bab3;
+$emerald        : #5ece7f;
+$sunglo         : #e67478;
+$coral          : #ff784f;
+$purple-majesty : #9279c3;
+$scooter        : #39add1;
+$amethyst		: #AA6CCB;
+$bright			: #0FEBC9;
+$azure			: #0F81EB;
+$spring			: #0FEB98;
+$turqoise		: #56F0C0;
+
+//UI color
+
+$ui-colors : (
+	default : $fountain-blue,
+	success	: $emerald,
+	error	: $sunglo,
+	warning	: $coral,
+	info	: $purple-majesty
+);
+
+// Color Usage
+
+$color-primary   : $fountain-blue;
+$color-secondary : $scooter;
+$color-accent    : $emerald;
+$color-shadow    : rgba($black, .2);
+
+$grid-colors: (
+	3: $amethyst,
+	4: $bright,
+	5: $azure,
+	6: $azure,
+	7: $sunglo,
+	8: $coral,
+	12:$spring
+);
+
+// Font Weights
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+// Transitions
+
+$trns-duration  : .3s;
+
+
+// Text
+
+$base__font-size : 16px;
+$base__line      : 24px;
+$letter-space 	 : 1px;
+
+
+// Breakpoints
+
+$brkpoint-sm    : 480px;
+$brkpoint-md    : 768px;
+$brkpoint-lg    : 1000px;
+
+// Screen reader text
+
+.srt {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
