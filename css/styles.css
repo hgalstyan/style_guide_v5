@@ -438,8 +438,7 @@ body {
   @media (min-width: 1000px) {
     .btn--default {
       flex-basis: 15%;
-      margin-left: 0;
-      margin-right: 0; } }
+      margin: 0.3125em auto; } }
 .btn--success {
   background-color: #5ece7f;
   border: none;
@@ -454,8 +453,7 @@ body {
   @media (min-width: 1000px) {
     .btn--success {
       flex-basis: 15%;
-      margin-left: 0;
-      margin-right: 0; } }
+      margin: 0.3125em auto; } }
 .btn--error {
   background-color: #e67478;
   border: none;
@@ -470,8 +468,7 @@ body {
   @media (min-width: 1000px) {
     .btn--error {
       flex-basis: 15%;
-      margin-left: 0;
-      margin-right: 0; } }
+      margin: 0.3125em auto; } }
 .btn--warning {
   background-color: #ff784f;
   border: none;
@@ -486,8 +483,7 @@ body {
   @media (min-width: 1000px) {
     .btn--warning {
       flex-basis: 15%;
-      margin-left: 0;
-      margin-right: 0; } }
+      margin: 0.3125em auto; } }
 .btn--info {
   background-color: #9279c3;
   border: none;
@@ -502,8 +498,7 @@ body {
   @media (min-width: 1000px) {
     .btn--info {
       flex-basis: 15%;
-      margin-left: 0;
-      margin-right: 0; } }
+      margin: 0.3125em auto; } }
 
 .form {
   padding-top: 1.25em;

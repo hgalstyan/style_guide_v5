@@ -13,8 +13,7 @@
 		
 		@include mq(large) {
 		flex-basis: 15%;
-		margin-left: 0;
-		margin-right: 0;
+		margin: em(5px) auto;
 		}
 	}
 
