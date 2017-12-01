@@ -20,7 +20,8 @@
 		width: 100%;
 		@include flexbox($content: space-between,$direction: row);
 		&__item {
-			flex-grow: 1
+			flex-grow: 1;
+			align-self: center;
 		}	
 	}
 }

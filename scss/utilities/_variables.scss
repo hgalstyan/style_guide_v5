@@ -86,6 +86,12 @@ $brkpoint-sm    : 480px;
 $brkpoint-md    : 768px;
 $brkpoint-lg    : 1000px;
 
+// Grid configuration variables
+$g-col-width: 100px;
+$g-gutter-width: 8px;
+$g-col-count: 12;
+$g-cont-max-w: 1150px;
+
 // Screen reader text
 
 .srt {

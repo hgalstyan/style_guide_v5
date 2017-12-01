@@ -81,8 +81,23 @@
 	@content;
 }
 
-@mixin flex-lg($basis){
-	flex-basis: $basis;
-	margin-right: 0;
-	margin-left: 0;
+//====================
+//Grid mixin
+//====================
+
+@mixin g-columns {
+  .grid__row {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@mixin flex_col {
+  @for $i from 1 through $g-col-count {
+    $context: g-context($g-col-width, $g-col-count ,$g-gutter-width) !global;
+    $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+    // Generate column modifier classes
+    &--#{$i} {
+      flex-basis: percentage($target / $context);
+    }
+  }
 }
